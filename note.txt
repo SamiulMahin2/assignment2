@@ -1,0 +1,9 @@
+fonts
+	noto serif - bold,
+	inter - regular, medium, semibold, bold
+
+	inter-font
+	noto-serif-font
+
+colors
+	orange - #E95A08

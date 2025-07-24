@@ -1,0 +1,45 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* common css start */
+    .container{
+        padding: 0 15px;
+    }
+    /* common css end */
+
+    /* header start */
+    header{
+        margin: 15px 0 20px;
+    }
+
+    /* nav */
+    .logo img{
+        width: 80%;
+    }
+    .menu ul li{
+        display: none;
+    }
+    .menu ul li:last-child{
+        display: block;
+        margin-top: 15px;
+    }
+
+    /* banner */
+    .banner{
+        flex-direction: column-reverse;
+        padding-top: 50px;
+    }
+    .banner-content{
+        margin-top: 20px;
+    }
+    .banner-content h1{
+        font-size: 30px;
+    }
+    .banner-content p{
+        font-size: 16px;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+    /* header end */
+}
+
