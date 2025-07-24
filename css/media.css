@@ -9,11 +9,21 @@
     .common-title h1 {
         font-size: 30px;
     }
+
     .common-description p {
         font-size: 15px;
         margin: 10px 0px 30px;
+        line-height: 20px;
     }
+
+    .common-button {
+        font-size: 12px;
+        padding: 13px 27px;
+    }
+
     /* common css end */
+
+
 
     /* header start */
     header {
@@ -50,6 +60,7 @@
 
     .banner-content p {
         font-size: 15px;
+        line-height: 20px;
     }
 
     .banner-image img {
@@ -57,4 +68,26 @@
     }
 
     /* header end */
+
+
+
+    /* main start */
+
+    /* our plants */
+    .our-plants {
+        margin-bottom: 80px;
+    }
+
+    /* our plants all cards */
+    .our-plants-cards {
+        grid-template-columns: repeat(2, 137px);
+        column-gap: 15px;
+    }
+
+    /* single card */
+    .card-title h2, .card-price p{
+        font-size: 18px;
+    }
+
+    /* main end */
 }
