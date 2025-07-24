@@ -75,7 +75,7 @@
 
     /* our plants */
     .our-plants {
-        margin-bottom: 80px;
+        margin-bottom: 50px;
     }
 
     /* our plants all cards */
@@ -85,8 +85,32 @@
     }
 
     /* single card */
-    .card-title h2, .card-price p{
+    .card-title h2,
+    .card-price p {
         font-size: 18px;
+    }
+
+    /* trusted seller */
+    .trusted-seller {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .trusted-seller-badge img {
+        display: none;
+    }
+
+    .trusted-seller-main-image img {
+        width: 100%;
+    }
+
+    .trusted-title h1 {
+        font-size: 25px;
+        margin-top: 18px;
+    }
+
+    .trusted-description li {
+        margin: 15px 0 0 20px;
     }
 
     /* main end */
