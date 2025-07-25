@@ -156,4 +156,13 @@
     }
 
     /* main end */
+
+    /* footer start */
+    footer{
+        flex-direction: column;
+    }
+    .footer-logo-description{
+        width: 100%;
+    }
+    /* footer end */
 }

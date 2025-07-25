@@ -73,10 +73,14 @@ nav{
 .menu ul{
   gap: 40px;
 }
-.menu ul li{
+.menu ul li,
+.left-middle ul li,
+.right-middle ul li{
   list-style: none;
 }
-.menu ul li a{
+.menu ul li a,
+.left-middle ul li a,
+.right-middle ul li a{
   text-decoration: none;
   font-size: 1.125rem;
   font-weight: 500;
@@ -258,3 +262,30 @@ nav{
   margin-left: -4px;
 }
 /* main end */
+
+/* footer start */
+footer{
+  column-gap: 77px;
+  padding-bottom: 24px !important;
+}
+.footer-logo-description{
+  width: 360px;
+}
+.footer-logo-description p{
+  margin: 16px 0 0 0;
+}
+/* .left-middle,
+.right-middle{
+  flex: 1;
+} */
+.left-middle ul li,
+.right-middle ul li{
+  margin-bottom: 26px;
+}
+.right img{
+  margin-right: 20px;
+}
+.right img:nth-child(2){
+  margin-bottom: 8px;
+}
+/* footer end */
