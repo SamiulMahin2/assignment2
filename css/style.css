@@ -199,8 +199,6 @@ nav{
   text-align: center;
   border-radius: 22px;
 }
-.right-sided-image{
-}
 .image-right{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-zabo.png);
   background-repeat: no-repeat;
@@ -220,5 +218,43 @@ nav{
   font-size: 25px;
   font-weight: 600;
   color: white;
+}
+
+/* newsletter */
+.newsletter{
+  margin-bottom: 50px;
+  text-align: center;
+  background-image: url(../assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.newsletter-title{
+  padding-top: 190px;
+  margin-bottom: 23px;
+}
+.newsletter-title h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.newsletter-input{
+  justify-content: center;
+  padding-bottom: 190px;
+}
+.newsletter-input input{
+  padding: 15px 540px 15px 20px;
+  border: none;
+}
+.newsletter-input input:focus{
+  outline: 0;
+}
+.newsletter-input input::placeholder{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+.newsletter-button{
+  margin-left: -4px;
 }
 /* main end */

@@ -136,5 +136,24 @@
         font-size: 16px;
     }
 
+
+    /* newsletter */
+    .newsletter-title {
+        padding-top: 90px;
+        margin-bottom: 23px;
+    }
+
+    .newsletter-title h1 {
+        font-size: 25px;
+    }
+
+    .newsletter-input {
+        padding-bottom: 60px;
+    }
+
+    .newsletter-input input {
+        padding: 10px 0 10px 15px;
+    }
+
     /* main end */
 }
