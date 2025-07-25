@@ -105,7 +105,6 @@ nav{
 /* header end */
 
 /* main start */
-main{}
 
 /* our plants */
 .our-plants{
@@ -120,8 +119,6 @@ main{}
 }
 
 /* single card */
-.single-card{}
-.card-image{}
 .card-image img{
   width: 100%;
 }
@@ -156,23 +153,72 @@ main{}
 .truster-seller-images{
   position: relative;
 }
-.trusted-seller-badge{}
 .trusted-seller-badge img{
   position: absolute;
-  top: 1860px;
+  top: 1865px;
   left: 500px;
   width: 286px;
   height: 286px;
   z-index: 2;
 }
-.trusted-seller-main-image{}
-.trusted-seller-main-image img{}
-.truster-seller-content{}
-.truster-title{}
-.trusted-title h1{}
-.truster-description-container{}
-.truster-description{}
+
 .trusted-description li{
   margin: 20px 0 0 30px;
+}
+
+/* latest deals */
+.latest-deals{
+  margin-bottom: 120px;
+}
+.lates-deals-description p{
+  margin-bottom: 80px;
+}
+.latest-deals-image-container{
+  grid-template-columns: 367px 1fr;
+  column-gap: 30px;
+}
+.left-sided-image{
+  grid-template-rows: repeat(1, 1fr);
+  row-gap: 25px;
+}
+.image1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding: 60px 15px;
+  text-align: center;
+  border-radius: 22px;
+}
+.image2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-ana.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding: 60px 15px;
+  text-align: center;
+  border-radius: 22px;
+}
+.right-sided-image{
+}
+.image-right{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  min-height: 100%;
+  place-content: center;
+  text-align: center;
+  border-radius: 22px;
+}
+.latest-title{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.latest-link{
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
 }
 /* main end */
