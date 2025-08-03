@@ -156,6 +156,8 @@ nav{
 }
 .truster-seller-images{
   position: relative;
+  width: 286px;
+  height: 286px;
 }
 .trusted-seller-badge img{
   position: absolute;
