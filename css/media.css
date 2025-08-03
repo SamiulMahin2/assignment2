@@ -80,8 +80,8 @@
 
     /* our plants all cards */
     .our-plants-cards {
+        justify-content: center;
         grid-template-columns: repeat(2, 137px);
-        column-gap: 15px;
     }
 
     /* single card */
